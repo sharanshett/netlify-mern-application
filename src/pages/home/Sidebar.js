@@ -11,7 +11,7 @@ const sidebarBackground = {
 
 //side bar content can be defined here
 const navItems = [
-  { to: '/users', name: 'Users', exact: false, Icon: MdVerifiedUser }
+  { to: '/', name: 'Users', exact: false, Icon: MdVerifiedUser }
 ];
 
 const bem = bn.create('sidebar');

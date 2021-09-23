@@ -6,8 +6,7 @@ import UserList from '../userList/UserList';
 
 //different routes of the project
 const routePaths = [
-  { to: '/', title: [{route: '/', title: 'Users'}], Component: UserList },
-  { to: '/users', title: [{route: '/users', title: 'Users'}], Component: UserList }
+  { to: '/', title: [{route: '/', title: 'Users'}], Component: UserList }
 ];
 
 export default function Home(props) {
