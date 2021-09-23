@@ -1,0 +1,56 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+input[type=file]{
+    width:110px;
+    color:transparent;
+}
+
+.extra-info {
+  display: none;
+  line-height: 30px;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+ 
+.info:hover .extra-info {
+  display: block;
+  cursor: hand; 
+  cursor: pointer;
+  border-style: inset;
+  border-color: #213d53;
+  border-width: 3px;
+}
+ 
+.info {
+  font-size: 20px;
+  padding-left: 5px;
+  width: 20px;
+  border-radius: 15px;
+}
+ 
+.info:hover {
+  background-color: white;
+  padding: 0 0 0 5px;
+  width: 266px;
+  text-align: left !important;
+}
